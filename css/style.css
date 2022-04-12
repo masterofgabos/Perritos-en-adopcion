@@ -187,39 +187,6 @@ body {
     display: none;
 }
 
-@media only screen and (max-width: 1200px) {
-    .menu_responsivo {
-        display: block;
-        border-radius: 2px;
-        cursor: pointer;
-        margin-top: 10%;
-        margin-bottom: 5%;
-        float: right;
-        position: relative;
-    }
-
-    .header__logo__responsive {
-        display: block;
-        float: left;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        position: relative;
-    }
-
-    .header__menu__option {
-        display: none;
-    }
-
-    .header__menu {
-        display: none;
-    }
-
-    .header__logo {
-        display: none;
-    }
-}
-
-
 
 /* carrusel */
 
@@ -236,27 +203,27 @@ h6 {
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 3.5vw;
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 3vw;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 2.75vw;
 }
 
 h4 {
-    font-size: 24px;
+    font-size: 2.5vw;
 }
 
 h5 {
-    font-size: 18px;
+    font-size: 2vw;
 }
 
 h6 {
-    font-size: 16px;
+    font-size: 1.5vw;
 }
 
 p {
@@ -448,26 +415,32 @@ ol {
 /* pagina adopciones */
 .d-flex_mr-3 {
     display: flex;
-    width: 640px;
-    height: 372px;
-    margin-right: 1%;
-    margin-bottom: 1%;
+    width: 50%;
+    height: 100%;
+    margin-right: 5%;
+    position: relative;
 }
 
 .media {
     background: rgba(0, 0, 0, 0.5);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: justify;
 }
 
 .btn-primary {
-    margin-top: 15%;
+    margin-top: 10%;
     size: 30px;
     background-color: #12191a;
 }
 
 /* corte de pelo */
 .card_1 {
-
-    text-align: center;
+    text-align: justify;
+    padding-right: 3%;
+    padding-left: 3%;
 }
 
 .card{
@@ -475,20 +448,28 @@ ol {
 }
 
 .card-title1{
+    font-size: 2.5vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
     color: #12191a;
+    text-align: center;
 }
 
 .card-body {
-    text-align: center;
+    text-align: justify;
 }
 
 .card-title {
     color: #12191a;
+    padding-top: 3%;
+    padding-bottom: 2%;
 }
 
 .card-text {
+    padding-top: 2%;
+    padding-bottom: 2%;
     color: #12191a;
-    font-size: x-large;
+    font-size: 1.75vw;
 }
 
 /* pagina sobre nosotos */
@@ -501,4 +482,77 @@ ol {
 }
 
 
+@media only screen and (min-width: 400px) and (max-width: 1200px) {
+    .menu_responsivo {
+        display: block;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        float: right;
+        position: relative;
+    }
 
+    .header__logo__responsive {
+        display: block;
+        float: left;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        position: relative;
+    }
+
+    .header__menu__option {
+        display: none;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .header__logo {
+        display: none;
+    }
+
+    .btn-primary {
+        margin-top: 8%;
+        size: 20px;
+        background-color: #12191a;
+    }
+}
+
+
+
+@media only screen and (max-width: 400px) {
+    .menu_responsivo {
+        display: block;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        float: right;
+        position: relative;
+    }
+
+    .header__logo__responsive {
+        display: none;
+    }
+
+    .header__menu__option {
+        display: none;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .header__logo {
+        display: none;
+    }
+
+    .btn-primary {
+        margin-top: 5%;
+        size: 15px;
+        background-color: #12191a;
+    }
+
+}
