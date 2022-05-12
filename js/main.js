@@ -1,4 +1,3 @@
-
 'use strict';
 
 (function ($) {
@@ -76,3 +75,4 @@
     });
 
 })(jQuery);
+

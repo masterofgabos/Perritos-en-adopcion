@@ -157,7 +157,7 @@ body {
 }
 
 .header__menu ul li a {
-    font-size: 18px;
+    font-size: 0.75vw;
     color: #ffffff;
     font-weight: 500;
     display: block;
@@ -229,7 +229,7 @@ h6 {
 p {
     font-size: 15px;
     font-family: "Poppins", sans-serif;
-    color: #ffffff;
+    color: black;
     font-weight: 400;
     line-height: 25px;
     margin: 0 0 15px 0;
@@ -556,3 +556,21 @@ ol {
     }
 
 }
+
+/* pagina registros */
+.container_reg{
+    width: 50%;
+    margin: auto;
+
+}
+
+.form-check{
+    width: 15vw;
+    position: relative;
+}
+
+.titu{
+    color: #12191a;
+    font-size: 1.75vw;
+}
+
